@@ -68,7 +68,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  # comments: false
+  comments: true
   images: ["images/papermod-cover.png"]
 
   profileMode:
@@ -177,3 +177,5 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+  disqus:
+    shortname: disqus_4NSF4vfBjU
