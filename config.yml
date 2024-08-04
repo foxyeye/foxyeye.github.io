@@ -3,7 +3,7 @@
 # baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
 baseURL: "https://foxyeye.github.io/"
 title: 大聪明的博客
-copyright: "© [foxyeye](https://github.com/foxyeye/MyHugoSite)"
+copyright: "© [foxyeye](https://github.com/foxyeye/)"
 paginate: 5
 theme: [PaperMod]
 
@@ -51,7 +51,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "foxyeye blog - https://github.com/foxyeye/"
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
 
@@ -94,7 +94,7 @@ params:
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/foxyeye/MyHugoSite"
+      url: "https://github.com/foxyeye/"
     # - name: Discord
     #   title: Join discord community
     #   url: "https://discord.gg/ahpmTvhVmp"
@@ -106,7 +106,7 @@ params:
     #   url: "https://ko-fi.com/adityatelange"
 
   editPost:
-    URL: "https://github.com/foxyeye/MyHugoSite/tree/github-page/content"
+    URL: "https://github.com/foxyeye/foxyeye.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
