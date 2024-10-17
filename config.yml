@@ -2,7 +2,7 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 # baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
 baseURL: "https://foxyeye.github.io/"
-title: 大聪明的博客
+title: 小雪转晴
 copyright: "© [foxyeye](https://github.com/foxyeye/)"
 paginate: 5
 theme: [PaperMod]
@@ -31,14 +31,17 @@ languages:
       series: series
     menu:
       main:
-        - name: 归档
+        - name: 全部文章
           url: archives
           weight: 5
-        - name: 搜索
-          url: search/
-          weight: 10
         - name: 标签
           url: tags/
+          weight: 10
+        - name: 分类
+          url: categories/
+          weight: 10
+        - name: 搜索
+          url: search/
           weight: 10
         # - name: WiKi
         #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
@@ -85,9 +88,9 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "你好，路人甲乙丙丁"
-    Content: >
-      👋 愿你智商永远在线
+    Title: "山高月小，水落石出"
+    # Content: >
+    #   👋 愿你智商永远在线
 
 
 
